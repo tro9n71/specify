@@ -1,0 +1,49 @@
+.sec4{
+    .container{
+        width: 90%;
+        opacity:0; 
+        animation: show 3s 1;
+        animation-fill-mode: forwards; 
+        animation-delay: 0.3s; 
+    }
+    h2{
+        font-size: 50px;
+        margin-top: 200px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .p1{
+        font-size: 22px;
+        color: rgba(20, 20, 20, 0.64);
+        text-align: center;
+        margin: auto;
+        width: 58%;
+    }
+    .grid_container{
+        display: grid;
+        grid-column-gap: 50px;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        .grid_item {
+            width: 80%;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            font-size: 10px;
+            text-align: center;
+            img{
+                width: 100%;
+            }
+            h1{
+                font-size: 38px;
+                margin: auto;
+            }
+            p{
+                font-size: 18px;
+                color: rgba(20, 20, 20, 0.64);
+                line-height: 30px;
+            }
+  }
+    }
+}
